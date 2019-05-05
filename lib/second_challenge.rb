@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
   newVals = []
   groceries.each do |k, value|
-  puts value
+  value
 end
 
 end

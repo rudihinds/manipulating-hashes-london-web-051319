@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
   newVals = []
   groceries.values.collect do |k, value|
-  puts value
+  newVals << puts value
 end
 
 end

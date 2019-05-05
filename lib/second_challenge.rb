@@ -11,5 +11,5 @@ def second_challenge
   groceries.each do |k, value|
   newVals << value
 end
-
+newVals
 end

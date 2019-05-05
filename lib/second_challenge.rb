@@ -10,5 +10,6 @@ def second_challenge
   newVals = []
   groceries.collect do |k, value|
   newVals << value
+  
 
 end

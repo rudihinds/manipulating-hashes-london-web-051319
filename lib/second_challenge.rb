@@ -7,9 +7,4 @@ def second_challenge
   }
 
   #code your solution here!
-  newVals = []
-  groceries.collect do |k, value|
-  value.join
-end
-newVals.to_ar
-end
+  groceries.values

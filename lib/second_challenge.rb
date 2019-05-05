@@ -11,5 +11,5 @@ def second_challenge
   groceries.collect do |k, value|
   value
 end
-newVals
+newVals.to_ar
 end
